@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="42%" r="60%">
+      <stop offset="0%" stop-color="#FBEFE4"/>
+      <stop offset="100%" stop-color="#F3E0D0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="110" cy="110" r="108" fill="url(#halo)"/>
+  <!-- blanket -->
+  <path d="M40 200 q70 -56 140 0 z" fill="#A9CBB7"/>
+  <path d="M64 200 q46 -34 92 0 z" fill="#9FC2D9"/>
+  <!-- bonnet -->
+  <path d="M72 96 a40 40 0 0 1 76 0 q-38 -22 -76 0 z" fill="#E8A598"/>
+  <circle cx="110" cy="64" r="9" fill="#F2D29B"/>
+  <!-- face -->
+  <circle cx="110" cy="118" r="46" fill="#6B4A36"/>
+  <path d="M72 104 a40 40 0 0 1 76 0 q-38 -18 -76 0 z" fill="#E8A598"/>
+  <!-- cheeks -->
+  <circle cx="86" cy="128" r="8" fill="#C97f6f" opacity="0.5"/>
+  <circle cx="134" cy="128" r="8" fill="#C97f6f" opacity="0.5"/>
+  <!-- eyes -->
+  <circle cx="93" cy="114" r="5.5" fill="#2b1c12"/>
+  <circle cx="127" cy="114" r="5.5" fill="#2b1c12"/>
+  <circle cx="94.6" cy="112" r="1.8" fill="#fff"/>
+  <circle cx="128.6" cy="112" r="1.8" fill="#fff"/>
+  <!-- smile -->
+  <path d="M96 134 q14 14 28 0" fill="none" stroke="#2b1c12" stroke-width="4" stroke-linecap="round"/>
+  <!-- little hand -->
+  <circle cx="150" cy="158" r="12" fill="#6B4A36"/>
+</svg>
