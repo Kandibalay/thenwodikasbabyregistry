@@ -130,3 +130,11 @@ tr:last-child td{border-bottom:0}
 @media (prefers-reduced-motion:reduce){
   .farewell,.farewell-overlay,.farewell .hearts{animation:none}
 }
+
+
+@media (max-width: 600px) {
+  .grid {
+    max-width: 95%;
+    margin: 16px auto;
+  }
+}
