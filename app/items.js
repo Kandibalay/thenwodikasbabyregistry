@@ -2,17 +2,19 @@
 // `img` points to /public/items/<file>. Swap these for your own photos anytime.
 export const items = [
   { id: 1, name: "Baby Bathing Set / Changing Station", price: 150000, img: "/items/babybathingset.jpeg" },
-  { id: 2, name: "Baby Next-to-Me Bassinet (Bed)", price: 160000, img: "/items/babyBed.jpeg" },
+  { id: 2, name: "Baby Bed", price: 160000, img: "/items/babyBed.jpeg" },
   { id: 3, name: "Baby Bottle Sterilizer / Dryer", price: 80000, img: "/items/babybottlesdryer.jpeg" },
   { id: 4, name: "Baby Car Seat", price: 65000, img: "/items/babycarset.jpeg" },
   { id: 5, name: "Baby Carrier", price: 35000, img: "/items/babycarrier.jpeg" },
   { id: 6, name: "Baby Nest", price: 35000, img: "/items/Babynest.jpeg" },
   { id: 7, name: "Huggies Diapers", price: 80000, img: "/items/Huggiesdiaper.jpeg" },
-  { id: 8, name: "Comfort Fabric Conditioner", price: 24000, img: "/items/comforconditioner.jpeg" },
+  { id: 8, name: "Changing Mat", price: 30000, img: "/items/changingmat2.jpeg" },
   { id: 9, name: "Milk / Food Warmer", price: 50000, img: "/items/MilkWarmernew.jpeg" },
   { id: 10, name: "Thermo Flask (Set of 2)", price: 70000, img: "/items/ThermoFlasknew.jpeg" },
   { id: 11, name: "Wardrobe", price: 160000, img: "/items/wardrobenew.jpeg" },
+  { id: 12, name: "Jaden Wearable Breast Pump", price: 140000, img: "/items/jadenbreast.jpeg" },
 ];
+
 
 export const tiers = [
   { key: "full", label: "Full", fraction: 1 },
