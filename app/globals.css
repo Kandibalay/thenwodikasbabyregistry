@@ -19,7 +19,7 @@ main{max-width:1100px;margin:0 auto;padding:0 20px 80px}
   box-shadow:0 12px 30px rgba(184,138,120,.28);background:var(--soft)}
 .eyebrow{margin:22px 0 0;letter-spacing:.22em;text-transform:uppercase;
   font-size:12px;color:var(--accent-ink);font-weight:700}
-.hero h1{margin:6px 0 10px;font-size:clamp(34px,6vw,52px);font-weight:800;letter-spacing:-.02em}
+.hero h1{margin:6px 0 10px;;font-weight:800;letter-spacing:-.02em}
 .sub{max-width:540px;margin:0 auto;color:var(--muted);font-size:16px}
 
 /* grid */
@@ -159,7 +159,9 @@ tr:last-child td{border-bottom:0}
   }
   .pick{
     font-size: 16px;
-    padding: 14px;
+    padding: 12px 14px;
   }
-  
+  h1{
+    font-size: 40px;
+  }
 }
